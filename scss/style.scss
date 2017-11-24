@@ -28,20 +28,22 @@
   margin-left: -50%;
 }
 
-@media screen and (min-aspect-ratio: 5 / 8) {
+@media screen and (min-aspect-ratio: 5/8) {
   .animation_wrap {
     width: 150%;
     padding-bottom: 90%;
     margin-left: -25%;
   }
 }
-@media screen and (min-aspect-ratio: 3 / 4) {
+
+@media screen and (min-aspect-ratio: 3/4) {
   .animation_wrap {
     width: 100%;
     padding-bottom: 60%;
     margin-left: 0;
   }
 }
+
 .animation_wrap svg {
   position: absolute;
   width: 100%;
@@ -58,11 +60,12 @@
   padding-top: 7.4%;
 }
 
-@media screen and (min-aspect-ratio: 4 / 3) {
+@media screen and (min-aspect-ratio: 4/3) {
   .bottom_snow {
     display: none;
   }
 }
+
 .bottom_snow svg {
   position: absolute;
   width: 100%;
@@ -76,3 +79,4 @@
   position: absolute;
   width: 100%;
 }
+
